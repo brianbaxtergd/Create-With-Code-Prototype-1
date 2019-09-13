@@ -5,22 +5,14 @@ using UnityEngine;
 public class FollowPlayer : MonoBehaviour
 {
     public Transform playerTransform;
-    public Vector3 offset = new Vector3(0, 5, -7);
 
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    Vector3 positionOffset = new Vector3(0, 5, -7);
 
-    // Update is called once per frame
-    void Update()
-    {
-    }
 
     private void FixedUpdate()
     {
-        transform.position = playerTransform.position + offset;
+        // Update camera position to follow player.
+        transform.position = playerTransform.position + positionOffset;
     }
 }

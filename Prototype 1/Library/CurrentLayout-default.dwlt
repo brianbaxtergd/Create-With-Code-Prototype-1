@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 494}
   m_MaxSize: {x: 18008, y: 14044}
   vertical: 0
-  controlID: 132
+  controlID: 35
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 444}
   m_MaxSize: {x: 4002, y: 8044}
   vertical: 1
-  controlID: 133
+  controlID: 66
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 494}
   m_MaxSize: {x: 10004, y: 14044}
   vertical: 1
-  controlID: 33
+  controlID: 36
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -534,7 +534,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 12814
+  m_LastSelectedObjectID: 12818
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -628,8 +628,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0e320000
-      m_LastClickedID: 12814
+      m_SelectedIDs: 12320000
+      m_LastClickedID: 12818
       m_ExpandedIDs: 78fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -705,9 +705,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 202f0000
-    m_LastClickedID: 12064
-    m_ExpandedIDs: 00000000562d0000182e000000ca9a3b
+    m_SelectedIDs: 222f0000
+    m_LastClickedID: 12066
+    m_ExpandedIDs: 00000000582d00001a2e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -735,7 +735,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 5c310000
     m_LastClickedID: 12636
-    m_ExpandedIDs: 00000000562d0000182e0000
+    m_ExpandedIDs: 00000000582d00001a2e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -762,22 +762,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300005c310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: FollowPlayer
-      m_OriginalName: FollowPlayer
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 13336
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
