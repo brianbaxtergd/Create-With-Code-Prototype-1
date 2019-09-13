@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class FollowPlayer : MonoBehaviour
 {
-    public float speed = 5f;
+    public Transform playerTransform;
+    public Vector3 offset = new Vector3(0, 5, -7);
+
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +21,6 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
+        transform.position = playerTransform.position + offset;
     }
 }
